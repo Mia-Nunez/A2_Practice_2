@@ -1,7 +1,7 @@
 // in src/admin/index.tsx
 import { Admin, Resource, ListGuesser, EditGuesser, Create, ShowGuesser, radiantLightTheme } from "react-admin";
 // import jsonServerProvider from "ra-data-json-server"; # remove these
-import { createTrailbaseProvider } from "/workspaces/A2_Practice_2/my-admin/ra-trailbase (1).js";
+import { createTrailbaseProvider } from "/workspaces/A2_Practice_2/my-admin/ra-trailbase (1).js"; // ""../ra-trailabse";
 import { OrderCreate, OrderEdit, OrderList, OrderShow } from "../Tables/ORDERS";
 import { BookCreate, BookEdit, BookList, BookShow } from "../Tables/BOOK";
 import { PublisherCreate, PublisherEdit, PublisherList, PublisherShow } from "../Tables/PUBLISHER";
